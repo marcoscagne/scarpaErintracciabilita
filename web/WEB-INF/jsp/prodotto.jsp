@@ -1,6 +1,6 @@
 <%-- 
-    Document   : index
-    Created on : 7-mar-2016, 19.16.43
+    Document   : prodotto
+    Created on : 10-mar-2016, 17.21.59
     Author     : Marco
 --%>
 
@@ -25,12 +25,34 @@
             <div class="nav-wrapper">
                 <!--<a href="#" class="brand-logo right">Logo</a>-->
                 <ul class="left">
-                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="./">Home</a></li>
                     <li><a href="login">Login</a></li>
-                    <li><a href="prodotto">Prodotto</a></li>
+                    <li class="active"><a href="#">Prodotto</a></li>
                 </ul>
             </div>
         </nav>
+        
+        <div class="container">
+            <div class="center-align sfondoProdotto">
+                <br/><br/><br/>
+                prodotto<br/><br/><br/>
+                prodotto<br/><br/><br/>
+                prodotto<br/><br/><br/>
+                prodotto<br/><br/><br/>
+                prodotto<br/><br/><br/>
+                prodotto<br/><br/><br/>
+                prodotto<br/><br/><br/>
+                prodotto<br/><br/><br/>
+                prodotto<br/><br/><br/>
+                prodotto<br/><br/><br/>
+                prodotto<br/><br/><br/>
+                prodotto<br/><br/><br/>
+                prodotto<br/><br/><br/>
+                prodotto<br/><br/><br/>
+                prodotto<br/><br/><br/>
+                prodotto<br/><br/><br/>
+            </div>
+        </div>
         
         <!--Import jQuery before materialize.js-->
         <script type="text/javascript" src="./resources/js/jquery-2.1.1.min.js"></script>
@@ -38,3 +60,4 @@
         <script type="text/javascript" src="./resources/js/script.js"></script>
     </body>
 </html>
+

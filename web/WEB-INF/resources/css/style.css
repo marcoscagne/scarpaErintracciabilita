@@ -1,13 +1,14 @@
 body{
-	background-image: url("../images/sfondi/pagIniziale.jpg");
-	background-repeat:no-repeat;
-	background-attachment: fixed;
-	background-size:contain;
+    background-image: url("../images/sfondi/pagIniziale.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:contain;
+    background-position:10% 50%;
 }
 
 .login{
-	margin: 5% 0% 0% 30%;
-	text-align:center;
+    margin: 5% 0% 0% 30%;
+    text-align:center;
     background-color:white;
     padding: 10px;
     border-width: 5px;
@@ -23,85 +24,101 @@ body{
 }
 
 .waves-effect.waves-red {
-     /* The alpha value allows the text and background color
-     of the button to still show through. */
-      background-color: red;
+    /* The alpha value allows the text and background color
+    of the button to still show through. */
+    background-color: red;
 }
 
 .bottone{
-	min-width:350px;
+    min-width:350px;
 }
 
 .bottone2{
-	min-width:200px;
-	min-height:60px;
+    min-width:200px;
+    min-height:60px;
 }
 
 .divPrincipale{
-	background-color:white;
-	padding: 1%;
-	border-radius:10px;
-	margin: -1.5% auto -1.9% auto;
+    background-color:white;
+    padding: 1%;
+    border-radius:10px;
+    margin: -1.5% auto -1.9% auto;
 }
 
 .vuoto{
-	visibility:hidden;
+    visibility:hidden;
 }
 
 .errori{
-	color:red;
-	margin: -5% 0% 3% 0%;	
+    color:red;
+    margin: -5% 0% 3% 0%;	
 }
 
 .ok{
-	color:green;
-	margin: -5% 0% 3% 0%;	
+    color:green;
+    margin: -5% 0% 3% 0%;	
 }
 
 .myButton{
-	float: right;
-	margin: 2%;
-	position:fixed;
-	right: 0px;
-	top: 23px;
-	z-index: 998;
-	min-width:70px;
+    float: right;
+    margin: 2%;
+    position:fixed;
+    right: 0px;
+    top: 23px;
+    z-index: 998;
+    min-width:70px;
 }
 
 .myButton2{
-	float: right;
-	margin: 2%;
-	position:fixed;
-	right: 0px;
-	top: 70px;
-	z-index: 998;
-	min-width:70px;
+    float: right;
+    margin: 2%;
+    position:fixed;
+    right: 0px;
+    top: 70px;
+    z-index: 998;
+    min-width:70px;
 }
 
 .myButton3{
-	float: right;
-	margin: 2%;
-	position:fixed;
-	right: 0px;
-	top: 117px;
-	z-index: 998;
-	min-width:70px;
+    float: right;
+    margin: 2%;
+    position:fixed;
+    right: 0px;
+    top: 117px;
+    z-index: 998;
+    min-width:70px;
 }
 
 .myButton4{
-	float: right;
-	margin: 2%;
-	position:fixed;
-	right: 0px;
-	top: 164px;
-	z-index: 998;
-	min-width:70px;
+    float: right;
+    margin: 2%;
+    position:fixed;
+    right: 0px;
+    top: 164px;
+    z-index: 998;
+    min-width:70px;
 }
 
 .largCol{
-	max-width:1px;
+    max-width:1px;
 }
 
 .tuttaPagina{
-	background-color:red;
+    background-color:red;
+}
+
+.navBar{
+    opacity: 0.9;
+    position:fixed;
+}
+
+.sfondoProdotto{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.divAlign{
+    margin: 0% 10% 0% 0%;
+    position: absolute;
+    left: 50%;
+    top: 20%;
 }

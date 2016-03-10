@@ -16,20 +16,19 @@
 
     </head>
     <body>
-        <nav>
+        <nav class="navBar">
             <div class="nav-wrapper">
-                <a href="#" class="brand-logo right">Logo</a>
-                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <!--<a href="#" class="brand-logo right"><img style="height:60px;" src="./resources/images/logo.png" alt="logo"/></a>-->
+                <ul class="left">
                     <li><a href="./">Home</a></li>
-                    <li class="active"><a href="login">Login</a></li>
-                    <li><a href="#">JavaScript</a></li>
+                    <li class="active"><a href="#">Login</a></li>
+                    <li><a href="prodotto">Prodotto</a></li>
                 </ul>
             </div>
         </nav>
         <div class="row">
 			<div class="col l4 m3 s0 vuoto">.</div>
-            <div class="login col l4 m5 s9 z-depth-5">
-				<br/>
+            <div class="login col l4 m5 s9 z-depth-5 divAlign">
                 <div class="row">
                     <form class="col l12 m12 s12" role="form" method="post" action="controllaLogin.php">
                         <div class="row">
@@ -44,7 +43,7 @@
                                 <label for="password">Password</label>
                             </div>
                         </div>
-			<button class="btn waves-effect waves-light grey" type="submit" name="action">Submit
+			<button class="btn waves-effect waves-light red lighten-2" type="submit" name="action">Submit
                             <i class="material-icons right">send</i>
                         </button>
                     </form>

@@ -20,7 +20,12 @@ public class MainController {
     }
     
     @RequestMapping(value="/login",method= RequestMethod.GET)
-    public String jora(ModelMap map){
+    public String login(ModelMap map){
         return "login";
+    }
+    
+    @RequestMapping(value="/prodotto",method= RequestMethod.GET)
+    public String prodotto(ModelMap map){
+        return "prodotto";
     }
 }
