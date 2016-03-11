@@ -31,9 +31,28 @@
                 </ul>
             </div>
         </nav>
-        
+
         <div class="container">
+            <br/>
             <div class="center-align sfondoProdotto">
+                <div class="slider">
+                    <ul class="slides">
+                        <li>
+                            <img src="./resources/images/sfondi/foto1.jpg"> <!-- random image -->
+                            <div class="caption center-align">
+                                <h3>Prova 1</h3>
+                                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./resources/images/sfondi/foto2.jpg"> <!-- random image -->
+                            <div class="caption center-align">
+                                <h3>Prova 2</h3>
+                                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
                 <br/><br/><br/>
                 prodotto<br/><br/><br/>
                 prodotto<br/><br/><br/>
@@ -53,7 +72,7 @@
                 prodotto<br/><br/><br/>
             </div>
         </div>
-        
+
         <!--Import jQuery before materialize.js-->
         <script type="text/javascript" src="./resources/js/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="./resources/materialize/js/materialize.min.js"></script>

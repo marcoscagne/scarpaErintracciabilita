@@ -27,8 +27,28 @@
             </div>
         </nav>
         <div class="row">
-			<div class="col l4 m3 s0 vuoto">.</div>
-            <div class="login col l4 m5 s9 z-depth-5 divAlign">
+            <div id="divLoginMobile" class="login col l7 m7 s8 z-depth-5 divAlignMobile">
+                <div class="row">
+                    <form class="col l12 m12 s12" role="form" method="post" action="controllaLogin.php">
+                        <div class="row">
+                            <div class="input-field col s12 m6 l6">
+                                <i class="material-icons prefix">perm_identity</i>
+                                <input value="" id="nomeUtente" type="text" name="nomeUtente" class="validate" required>
+                                <label for="nomeUtente">Nome</label>
+                            </div>
+                            <div class="input-field col s12 m6 l6">
+                                <i class="material-icons prefix">vpn_key</i>
+                                <input value="" id="password" type="password" name="password" class="validate" required>
+                                <label for="password">Password</label>
+                            </div>
+                        </div>
+			<button class="btn waves-effect waves-light red lighten-2" type="submit" name="action">Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div id="divLogin" class="login col l4 m5 s4 z-depth-5 divAlign">
                 <div class="row">
                     <form class="col l12 m12 s12" role="form" method="post" action="controllaLogin.php">
                         <div class="row">

@@ -1,7 +1,15 @@
 $(document).ready(function() {
     $(".button-collapse").sideNav();
+    $('.slider').slider({full_width: true});
 });
 
-/*if(window.screen.availWidth<600){
-	$( "#navBar" ).css("position","fixed");
-}*/
+$(window).resize(function() {
+    if($(window).width()<600){
+        $( "#divLogin" ).hide();
+        $( "#divLoginMobile" ).show();
+    }
+    if($(window).width()>600){
+        $( "#divLogin" ).show();
+        $( "#divLoginMobile" ).hide();
+    }
+}).resize();
