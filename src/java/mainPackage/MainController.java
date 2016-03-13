@@ -28,4 +28,9 @@ public class MainController {
     public String prodotto(ModelMap map){
         return "prodotto";
     }
+    
+    @RequestMapping(value="/profilo",method= RequestMethod.GET)
+    public String profilo(ModelMap map){
+        return "profilo";
+    }
 }

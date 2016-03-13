@@ -28,6 +28,7 @@
                     <li><a href="./">Home</a></li>
                     <li><a href="login">Login</a></li>
                     <li class="active"><a href="#">Prodotto</a></li>
+                    <li><a href="profilo">Profilo</a></li>
                 </ul>
             </div>
         </nav>
@@ -85,28 +86,28 @@
                         </ul>
                     </div>
                 </nav>-->
-
-                <nav>
-                    <div class="nav-wrapper">
-                        <a href="#!" class="brand-logo right">Menu</a>
-                        <a href="#" data-activates="mobile-demo" class="button-collapse center-align"><i class="material-icons">menu</i></a>
-                        <ul class="left hide-on-med-and-down">
-                            <li><a href="#produttore">Produttore</a></li>
-                            <li><a href="#materiali" >Materiali</a></li>
-                            <li><a href="#simili">Simili</a></li>
-                            <li><a href="#territorio">Territorio</a></li>
-                            <li><a href="#video">Video</a></li>
-                        </ul>
-                        <ul class="side-nav" id="mobile-demo">
-                            <li><a href="#produttore">Produttore</a></li>
-                            <li><a href="#materiali" >Materiali</a></li>
-                            <li><a href="#simili">Simili</a></li>
-                            <li><a href="#territorio">Territorio</a></li>
-                            <li><a href="#video">Video</a></li>
-                        </ul>
-                    </div>
-                </nav>
-
+                <div>
+                    <nav id="mainnav">
+                        <div class="nav-wrapper">
+                            <a href="#!" class="brand-logo right">Menu</a>
+                            <a href="#" data-activates="mobile-demo" class="button-collapse center-align"><i class="material-icons">menu</i></a>
+                            <ul class="left hide-on-med-and-down">
+                                <li><a href="#produttore">Produttore</a></li>
+                                <li><a href="#materiali" >Materiali</a></li>
+                                <li><a href="#simili">Simili</a></li>
+                                <li><a href="#territorio">Territorio</a></li>
+                                <li><a href="#video">Video</a></li>
+                            </ul>
+                            <ul class="side-nav" id="mobile-demo">
+                                <li><a href="#produttore">Produttore</a></li>
+                                <li><a href="#materiali" >Materiali</a></li>
+                                <li><a href="#simili">Simili</a></li>
+                                <li><a href="#territorio">Territorio</a></li>
+                                <li><a href="#video">Video</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
                 <hr>
                 <a name="produttore"></a>
                 <div>
@@ -194,6 +195,7 @@
                 <hr>-->
                 <a name="video"></a>
                 <div>
+                    <p><b>Video</b></p>
                     <iframe width="100%" height="200" src="https://www.youtube.com/embed/c-2XsbnHnoc" frameborder="0" allowfullscreen></iframe>
                     <iframe width="100%" height="200" src="https://www.youtube.com/embed/iVlc4z2dn0U" frameborder="0" allowfullscreen></iframe>
                 </div>
@@ -231,7 +233,7 @@
 
         <script>
             $(document).ready(function () {
-                $('.carousel').carousel();
+
             });
         </script>
     </body>

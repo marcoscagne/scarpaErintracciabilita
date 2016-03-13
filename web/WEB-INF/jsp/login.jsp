@@ -23,6 +23,7 @@
                     <li><a href="./">Home</a></li>
                     <li class="active"><a href="#">Login</a></li>
                     <li><a href="prodotto">Prodotto</a></li>
+                    <li><a href="profilo">Profilo</a></li>
                 </ul>
             </div>
         </nav>

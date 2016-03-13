@@ -28,10 +28,10 @@
                     <li class="active"><a href="#">Home</a></li>
                     <li><a href="login">Login</a></li>
                     <li><a href="prodotto">Prodotto</a></li>
+                    <li><a href="profilo">Profilo</a></li>
                 </ul>
             </div>
         </nav>
-        
         <!--Import jQuery before materialize.js-->
         <script type="text/javascript" src="./resources/js/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="./resources/materialize/js/materialize.min.js"></script>
